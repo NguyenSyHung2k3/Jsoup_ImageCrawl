@@ -49,5 +49,9 @@ Sau đó, Maven sẽ tự động tải về Jsoup khi bạn chạy lệnh `mvn 
         return url + img;
   }
   ```
+
+  Hàm Crawlimage trả về url chứa ảnh bất kì
+- Lưu ảnh về dưới file `.jdg`
+  
   
 
