@@ -52,6 +52,8 @@ Sau đó, Maven sẽ tự động tải về Jsoup khi bạn chạy lệnh `mvn 
 
   Hàm Crawlimage trả về url chứa ảnh bất kì
 - Lưu ảnh về dưới file `.jdg`
+  ![image](https://github.com/NguyenSyHung2k3/Jsoup_ImageCrawl/blob/master/assets/Screenshot%202023-12-12%20195851.png)
+- Lưu tất cả các ảnh crawl về được vào 1 folder
   
   
 
