@@ -6,10 +6,12 @@
 Để cài đặt Jsoup trong dự án java bạn có thể sử dụng Maven hoặc Gradle để quản lý các thư viện phụ thuộc
 - Sử dụng Maven:
   Thêm dependency vào tệp `pom.xml` của bạn:
-  > <dependencies>
-  >     <dependency>
-  >         <groupId>org.jsoup</groupId>
-  >         <artifactId>jsoup</artifactId>
-  >         <version>1.14.3</version> <!-- Phiên bản mới nhất có thể thay đổi -->
-  >     </dependency>
-  > </dependencies>
+```xml
+   <dependencies>
+       <dependency>
+           <groupId>org.jsoup</groupId>
+           <artifactId>jsoup</artifactId>
+           <version>1.14.3</version> <!-- Phiên bản mới nhất có thể thay đổi -->
+       </dependency>
+   </dependencies>
+```
