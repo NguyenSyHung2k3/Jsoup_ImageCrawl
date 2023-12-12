@@ -24,9 +24,30 @@ Sau đó, Maven sẽ tự động tải về Jsoup khi bạn chạy lệnh `mvn 
   }
 ```
 ## Tiến hành crawl ảnh về bằng Jsoup
-Thực hiện việc tìm kiếm dữ liệu của ảnh qua các thẻ HTML
-<br>
+- Thực hiện việc tìm kiếm dữ liệu của ảnh qua các thẻ HTML<br>
 ![image](https://github.com/NguyenSyHung2k3/Jsoup_ImageCrawl/blob/master/assets/Screenshot%202023-12-12%20193147.png)
 
-Code
+- Lập trình bằng phần mềm netbeans
+
+  ```xml
+  public String Crawlimage(){
+        String url = "https://this-person-does-not-exist.com/";
+        String img = "";
+        try{
+            
+            Document document = Jsoup.connect(url).get();
+            Elements docs = document.select("#avatar");
+            
+            for(Element e:docs){
+                img = e.attr("src");
+                System.out.println(img);
+            }  
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+        
+        return url + img;
+  }
+  ```
+  
 
