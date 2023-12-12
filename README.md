@@ -15,3 +15,11 @@
        </dependency>
    </dependencies>
 ```
+Sau đó, Maven sẽ tự động tải về Jsoup khi bạn chạy lệnh `mvn clean install` hoặc bất kì lệnh Maven khác.
+- Sử dụng Gradle:
+  Thêm depedency vào tệp `build.gradle` của bạn:
+```xml
+  dependencies {
+    implementation 'org.jsoup:jsoup:1.14.3' // Phiên bản mới nhất có thể thay đổi
+  }
+```
