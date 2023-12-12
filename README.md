@@ -57,6 +57,6 @@ Sau đó, Maven sẽ tự động tải về Jsoup khi bạn chạy lệnh `mvn 
   ![image](https://github.com/NguyenSyHung2k3/Jsoup_ImageCrawl/blob/master/assets/Screenshot%202023-12-12%20200111.png)
 
 ## Màn hình hệ thống để lấy ảnh về
-
+![image](https://github.com/NguyenSyHung2k3/Jsoup_ImageCrawl/blob/master/assets/Screenshot%202023-12-12%20200345.png)
   
 
